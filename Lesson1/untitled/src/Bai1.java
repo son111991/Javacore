@@ -8,4 +8,3 @@ public class Bai1 {
     System.out.println("Diện tích hình chữ nhật "+a+" và "+b+" là" + dientich);
   }
 }
-
