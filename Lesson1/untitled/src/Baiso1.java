@@ -7,6 +7,5 @@ public class Bai1 {
     System.out.println("Chu vi hình chữ nhật " +a+ " và " +b+ " là " + chuvi);
     System.out.println("Diện tích hình chữ nhật "+a+" và "+b+" là" + dientich);
   }
-  }
 }
 
