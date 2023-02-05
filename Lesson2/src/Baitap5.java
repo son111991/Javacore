@@ -8,7 +8,7 @@ public class Baitap5 {
     //Nhập 3 xâu ký tự ký tự s, s1, s2. Tìm tất cả những lần xuất hiện của s1 trong s và thay thế
     //bằng s2. Xuất s ra màn hình
     String s2 = "TIM KIEM VA THAY THE ";
-    String s3 = " TH";
+    String s3 = "TH";
     String s4 = "123";
     System.out.println(s2.replace("TH",s4));
     System.out.println(s2.replace("K",s3));
