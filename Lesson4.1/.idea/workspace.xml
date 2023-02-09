@@ -4,15 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="413e1d24-1ded-4774-8b94-0faac5f4d96d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/baitap/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/baitap.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baitap/src/Bai19.java" afterDir="false" />
-    </list>
+    <list default="true" id="413e1d24-1ded-4774-8b94-0faac5f4d96d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
