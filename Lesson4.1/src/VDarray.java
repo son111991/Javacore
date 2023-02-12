@@ -1,4 +1,4 @@
-public class array {
+public class VDarray {
   public static void main(String[] args) {
     int [] array =new int[100];
     String[] studentName = new String[45];
