@@ -8,6 +8,7 @@ public class Bai4 {
     // nếu có trường hợp a[i] = a[i+1] = a[i+2] thì được xem là có 2 cặp).
     int[] array = nhapMang();
     System.out.println(Arrays.toString(array));
+    demCap(array);
   }
   public static int[] nhapMang(){
     System.out.println(" Nhap so phan tu cua mang : ");
@@ -17,5 +18,14 @@ public class Bai4 {
       System.out.println("Nhập giá trị cho phần tử thứ "+(i+ 1)+"  là : ");
       a[i]= new Scanner(System.in).nextInt();
     }return a;
+  }
+  public static void demCap (int []a){
+    int count = 0;
+    for (int i = 0; i <(a.length -1) ; i++) {
+      if ( a[i]== a[i+1]){
+        count ++;
+      }
+    }
+    System.out.println("Số cắp liên tiếp bằng nhau : "+count);
   }
 }

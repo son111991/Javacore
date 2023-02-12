@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3578f5cb-5b4d-441b-a4c4-311a55fe732f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Lesson4.2.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Saochepthaydoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bubbledemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/nhapmanghaichieu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sogannhat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tbcmatran.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/timkiemdemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vd4cuoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/vitricuoisolonnhat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.1/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.1/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson4.1/src/Bai4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.1/src/Bai4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +21,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />

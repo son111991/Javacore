@@ -6,7 +6,6 @@ public class nhapmanghaichieu {
     int cot = nhapSo(" Nhập sô cột mà trận : ");
     int[][] maTran = nhapMaTran(dong, cot);
     xuatMaTran(maTran);
-
   }
   public static int nhapSo(String thongDiep){
     System.out.println(thongDiep);
