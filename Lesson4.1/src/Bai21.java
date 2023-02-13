@@ -42,13 +42,17 @@ public class Bai21 {
         max = a[i];
         viTri = i  ;
       }
-    }
-    for (int i = 0; i <a.length ; i++) {
-      if (min > a[i]){
+      if ( min > a[i]){
         min = a[i];
         viTri2 = i;
       }
     }
+//    for (int i = 0; i <a.length ; i++) {
+//      if (min > a[i]){
+//        min = a[i];
+//        viTri2 = i;
+//      }
+//    }
     System.out.println(" Số nhỏ nhất là số " +min+" xuất hiện  ở vị trí " + viTri2);
     System.out.println(" Số lớn nhất là số " +max+" xuất hiện  ở vị trí " + viTri);
   }
