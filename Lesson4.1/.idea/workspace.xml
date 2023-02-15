@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413e1d24-1ded-4774-8b94-0faac5f4d96d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lesson4.2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson4.2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Lesson6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,37 +43,37 @@
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Bai23">
-    <configuration name="Bai1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai1" />
+  <component name="RunManager" selected="Application.fibonaci1">
+    <configuration name="Bai10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai10" />
       <module name="Lesson4.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai21" />
+    <configuration name="Bai3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai3" />
       <module name="Lesson4.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai23" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai23" />
+    <configuration name="Bai6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai6" />
       <module name="Lesson4.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai4" />
+    <configuration name="Bai7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Bai7" />
       <module name="Lesson4.1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Bai8" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Bai8" />
+    <configuration name="fibonaci1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fibonaci1" />
       <module name="Lesson4.1" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,11 +81,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Bai23" />
-        <item itemvalue="Application.Bai8" />
-        <item itemvalue="Application.Bai1" />
-        <item itemvalue="Application.Bai21" />
-        <item itemvalue="Application.Bai4" />
+        <item itemvalue="Application.fibonaci1" />
+        <item itemvalue="Application.Bai6" />
+        <item itemvalue="Application.Bai3" />
+        <item itemvalue="Application.Bai7" />
+        <item itemvalue="Application.Bai10" />
       </list>
     </recent_temporary>
   </component>

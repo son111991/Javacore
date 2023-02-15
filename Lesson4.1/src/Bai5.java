@@ -19,7 +19,7 @@ public class Bai5 {
   }
 
   public static int nhapSo(String thongDiep) {
-    System.out.println(thongDiep);
+    System.out.print(thongDiep);
     return new Scanner(System.in).nextInt();
   }
 
@@ -32,6 +32,15 @@ public class Bai5 {
       }
     }
     System.out.println("]");
+  }
+  public static boolean tatCaBangNhau (int []a){
+    int temp = a[0];
+    for (int i = 0; i <a.length ; i++) {
+      if (a[i]== temp){
+        return false;
+      }
+    }
+    return true;
   }
   public static void timSLN ( int[] a){
     int max = a[0];

@@ -4,9 +4,9 @@ public class Bai14 {
   public static void main(String[] args) {
     //Nhập vào 2 số tự nhiên m và n, sao cho m < n. Hãy liệt kê các số chính phương
     // trong đoạn [m,n]. Có bao nhiêu số chính phương?
-    int a = nhapSo();
-    int b = nhapSo();
-    soChinhphuong(a,b);
+    int m = nhapSo();
+    int n = nhapSo();
+    soChinhphuong(m,n);
 
   }
   public static int nhapSo(){
