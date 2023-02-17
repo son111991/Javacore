@@ -19,6 +19,6 @@ public class Main {
 
     System.out.println("Chu vi HCN là : "+ rectangle.findPerimeter());
     System.out.println("Diện Tích HCN là : "+ rectangle.findArea());
-
+    System.out.println("Màu sắc HCN là : "+rectangle.color);
   }
 }
