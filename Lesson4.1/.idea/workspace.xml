@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413e1d24-1ded-4774-8b94-0faac5f4d96d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lesson6/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Lesson6/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +41,7 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/techmaster/Javacore/Lesson5",
+    "last_opened_file_path": "F:/techmaster/Javacore/Lesson4.1",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
