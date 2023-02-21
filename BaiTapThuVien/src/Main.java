@@ -1,12 +1,14 @@
 import java.util.Scanner;
+
 import Class.BanDoc;
 import Class.Sach;
 import Class.MuonSach;
+import Class.SachChoMuon;
 
 public class Main {
   public static BanDoc[] banDocs;
   public static Sach[] saches;
-  public static MuonSach [] muonSaches;
+  public static MuonSach[] muonSaches;
 
   public static void main(String[] args) {
     while (true) {
@@ -45,14 +47,74 @@ public class Main {
   private static void muonSach() {
     System.out.println(" Có mấy người mượn sách !");
     int soNguoiMuonSach = new Scanner(System.in).nextInt();
-    for (int i = 0; i < soNguoiMuonSach ; i++) {
-      System.out.println(" Nhập mã bạn đọc thứ "+ (i+1)+" muôn mượn sách ");
-      int maBanDoc = new Scanner(System.in).nextInt();
+    for (int i = 0; i < soNguoiMuonSach; i++) {
+      System.out.println(" Nhập mã bạn đọc thứ " + (i + 1) + " muôn mượn sách ");
+      int idBanDoc;
+      BanDoc banDoc = null;
+      do {
+        idBanDoc = new Scanner(System.in).nextInt();
 
+        for (int j = 0; j < banDocs.length; j++) {
+          if (banDocs[j].getMaBanDoc() == idBanDoc) {
+            banDoc = banDocs[j];
+            break;
+          }
+        }
+        if (banDoc != null) {
+          break;
+        }
+        System.out.println("Nhập sai mã ID ");
+      } while (true);
 
+      System.out.println("Nhập số lượng đầu sách bạn này muốn mượn ! ");
+      int soLuongSach;
+      do {
+        soLuongSach = new Scanner(System.in).nextInt();
+
+        if (soLuongSach <= 5 && soLuongSach > 0) {
+            break;
+        }
+        System.out.println("Số lượng sách mượn không hợp lệ , mới nhập lại ");
+      } while (true);
+
+      SachChoMuon[] sachmuon = new SachChoMuon[soLuongSach];
+      for (int j = 0; j <soLuongSach ; j++) {
+        System.out.println("Cuốn sách thứ "+(j+1)+"mà bạn đọc này muốn mượn có mã :  ");
+        int idSach;
+        Sach sach = null;
+        do {
+          idSach = new Scanner(System.in).nextInt();
+
+          for (int k = 0; k < saches.length; k++) {
+            if (saches[k].getID() == idSach) {
+              sach = saches[k];
+              break;
+            }
+          }
+          if (sach != null) {
+            break;
+          }
+          System.out.println("Nhập sai mã ID ");
+        } while (true);
+        System.out.println("Số lượng sách mượn ở đầu sách này là bao nhiêu : ");
+        int temp;
+        do {
+          temp = new Scanner(System.in).nextInt();
+
+          if (temp <= 3 && temp > 0) {
+            break;
+          }
+          System.out.println("Số lượng sách mượn không hợp lệ , mới nhập lại ");
+        } while (true);
+        SachChoMuon sachChoMuon = new SachChoMuon(sach, temp);
+        sachmuon[j]= sachChoMuon;
+      }
+      MuonSach muonSach = new MuonSach(banDoc, sachmuon);
 
     }
   }
+
+
 
   private static int chooseFuntion() {
     System.out.print("Mới chọn chức năng ! ");
@@ -102,23 +164,25 @@ public class Main {
     }
   }
 
-  public static  Sach[] dauSachMoi = new Sach[1000];
-  public  static  int numberOfBook = 0;
-  public static void nhapSach (){
+  public static Sach[] dauSachMoi = new Sach[1000];
+  public static int numberOfBook = 0;
+
+  public static void nhapSach() {
     System.out.println("Nhập số lượng sách : ");
     int soLuongSach = new Scanner(System.in).nextInt();
-    numberOfBook+=soLuongSach;
+    numberOfBook += soLuongSach;
     for (int i = 0; i < soLuongSach; i++) {
-      dauSachMoi[i]= new Sach();
+      dauSachMoi[i] = new Sach();
       dauSachMoi[i].input();
     }
   }
-  private static void showSach(){
-    if (dauSachMoi == null ||dauSachMoi.length == 0){
+
+  private static void showSach() {
+    if (dauSachMoi == null || dauSachMoi.length == 0) {
       System.out.println("Không hợp lệ ");
       return;
     }
-    for (int i = 0; i < numberOfBook ; i++) {
+    for (int i = 0; i < numberOfBook; i++) {
       dauSachMoi[i].in();
     }
   }

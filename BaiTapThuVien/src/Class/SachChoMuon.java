@@ -1,6 +1,19 @@
 package Class;
 
 public class SachChoMuon {
-  Sach sach;
-  int soLuong;
+  private Sach sach;
+  private int soLuong;
+
+  public SachChoMuon(Sach sach, int soLuong) {
+    this.sach = sach;
+    this.soLuong = soLuong;
+  }
+
+  public int getSoLuong() {
+    return soLuong;
+  }
+
+  public void setSoLuong(int soLuong) {
+    this.soLuong = soLuong;
+  }
 }

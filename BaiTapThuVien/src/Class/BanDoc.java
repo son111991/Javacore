@@ -12,6 +12,10 @@ public class BanDoc extends Nguoi {
     return maBanDoc;
   }
 
+  public int getMaBanDoc() {
+    return maBanDoc;
+  }
+
   public void setLoaiBanDoc(LoaiBanDoc loaiBanDoc) {
     this.loaiBanDoc = loaiBanDoc;
   }
