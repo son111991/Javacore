@@ -29,6 +29,7 @@ public class Main {
         case 4:showLine();
           break;
         case 5:
+          timeTable();
           break;
         case 6:
           break;
@@ -40,12 +41,15 @@ public class Main {
     }
   }
 
+  private static void timeTable() {
+
+  }
+
   private static void showLine() {
     for (int i = 0; i < lines.length ; i++) {
-      if ( lines[i ] != null){
+      if ( lines[i] != null){
         System.out.println(lines[i]);
       }
-
     }
   }
 
@@ -111,13 +115,13 @@ public class Main {
 
   private static void printmenu() {
     System.out.println("======================Phần mềm quản lý lái xe buýt ! ===============");
-    System.out.println(" 1.Nhập Lái xe mới : ");
-    System.out.println(" 2.In ra danh sách xe  : ");
-    System.out.println(" 3.Nhập danh sách tuyến mới : ");
-    System.out.println(" 4.In ra danh sách các tuyến  : ");
-    System.out.println(" 5.Nhập danh sách phân công cho các lái xe  : ");
-    System.out.println(" 6.Sắp xếp theo danh sách phân công  : ");
-    System.out.println(" 7.Lập bảng kê tổng khoảng cách chạy xe trong ngày của mỗi lái xe  : ");
-    System.out.println(" 8. Thoát ");
+    System.out.println(" 1.Nhập Lái xe mới: ");
+    System.out.println(" 2.In ra danh sách xe: ");
+    System.out.println(" 3.Nhập danh sách tuyến mới: ");
+    System.out.println(" 4.In ra danh sách các tuyến: ");
+    System.out.println(" 5.Nhập danh sách phân công cho các lái xe: ");
+    System.out.println(" 6.Sắp xếp theo danh sách phân công: ");
+    System.out.println(" 7.Lập bảng kê tổng khoảng cách chạy xe trong ngày của mỗi lái xe: ");
+    System.out.println(" 8. Thoát ! ");
   }
 }

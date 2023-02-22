@@ -41,6 +41,7 @@ public class Person implements Inputable {
   }
 
   public void inputinfor() {
+
     System.out.println(" Nhập tên ");
     this.name = new Scanner(System.in).nextLine();
     System.out.println(" Nhập địa chỉ ");
