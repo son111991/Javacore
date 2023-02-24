@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="413e1d24-1ded-4774-8b94-0faac5f4d96d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../BaiTapThuVien/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../BaiTapThuVien/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +31,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "F:/techmaster/Javacore/Lesson4.1",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/techmaster/Javacore/Lesson4.1&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.fibonaci1">
     <configuration name="Bai10" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Bai10" />
