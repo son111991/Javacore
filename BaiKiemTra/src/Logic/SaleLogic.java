@@ -29,7 +29,6 @@ public class SaleLogic {
       Sale sale = new Sale();
       sale.inputTable();
       saveSale(sale);
-
     }
   }
 
